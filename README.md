@@ -1,4 +1,4 @@
-![io hf patch preview](https://github.com/ManlyMarco/IO-HF_Patch/assets/39247311/dedd3aca-b8f2-40b3-acd0-c85e9939387b)
+![SummerInHeat_HFP_Preview](https://github.com/user-attachments/assets/22fe5c8b-648b-479d-941e-4b86829fa598)
 # HF Patch for Summer in Heat
 An unofficial patch for [Summer in Heat](https://miconisomi.xii.jp/summer/) (夏のサカり) by miconisomi. It fully translates and uncensors the game, and includes other useful mods.
 
@@ -45,6 +45,7 @@ Here are answers to some of the most commonly asked questions, please check them
 - There is no warranty on this patch or on any of the included mods. You are installing this patch at your own risk. The base game and by extension this patch are not suitable for minors. If you are under 18 years old you can not use this patch. The base game and this patch contain only characters of age 18 or higher. The creator of this patch is not responsible for creations of its users and prohibits any unlawful use of this software.
 
 ### Specific to the SVS patch
+- This patch lets you play the game in both English and Japanese. The uncensor works even when playing in Japanese.
 - If you install English translations, you have to start the game through the English launcher. If you use the Japanese launcher then the game will start in Japanese language.
 - If you want to skip straight to a specific story scene you can do it through the debug mode. In title screen go to Settings, open Plugin settings on the right, and set any key for the "Open debug menu" setting. Go back to the title screen, click the configured hotkey and go wild. Warning: Back up your save files if you care about your progress!
 - This patch works with both DMM and DLsite versions of the game (they are basically identical).
