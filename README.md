@@ -26,7 +26,7 @@ The download contains the entire HF Patch which can be used offline. You can use
 *Note: If you want to run the game under Wine/Proton (Linux, SteamOS, macOS, etc.), read [this](https://github.com/Mantas-2155X/illusion-wine-guide) and [this](https://docs.bepinex.dev/articles/advanced/proton_wine.html).*
 
 ## What mods are included?
-You can see a list of all included plugins and links to their websites and authors [here](https://github.com/ManlyMarco/SVS-HF_Patch/blob/master/Plugin%20Readme.md). You can see what content mods are included after installing the patch by running KKManager (installed to the game directory) and navigating to the zipmods tab.
+You can see a list of all included plugins and links to their websites and authors [here](https://github.com/ManlyMarco/SiH-HF_Patch/blob/master/Plugin%20Readme.md). You can see what content mods are included after installing the patch by running KKManager (installed to the game directory) and navigating to the zipmods tab.
 
 ## Discussion and help
 If you need any help, visit the [Koikatsu discord server](https://discord.gg/hevygx6) and ask in the [#summer-in-heat channel](https://discord.com/channels/447114928785063977/1334670734848426054). Asking there is the fastest way to get help, you can even search it for your issue to see if someone already answered it. There are also mod and card sharing channels on the server!
@@ -44,7 +44,7 @@ Here are answers to some of the most commonly asked questions, please check them
 - Please leave the modders some positive feedback or help them in some other way!
 - There is no warranty on this patch or on any of the included mods. You are installing this patch at your own risk. The base game and by extension this patch are not suitable for minors. If you are under 18 years old you can not use this patch. The base game and this patch contain only characters of age 18 or higher. The creator of this patch is not responsible for creations of its users and prohibits any unlawful use of this software.
 
-### Specific to the SVS patch
+### Specific to the SiH patch
 - This patch lets you play the game in both English and Japanese. The uncensor works even when playing in Japanese.
 - If you install English translations, you have to start the game through the English launcher. If you use the Japanese launcher then the game will start in Japanese language.
 - If you want to skip straight to a specific story scene you can do it through the debug mode. In title screen go to Settings, open Plugin settings on the right, and set any key for the "Open debug menu" setting. Go back to the title screen, click the configured hotkey and go wild. Warning: Back up your save files if you care about your progress!
