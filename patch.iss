@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.0"
+#define VERSION "1.0.1"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 

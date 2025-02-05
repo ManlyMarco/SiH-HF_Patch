@@ -8,6 +8,11 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
+# CultureFix v22.0.2
+- Short description: Force the game's process locale to Japanese to avoid potential issues on some systems
+- Author(s):         IllusionMods
+- More information:  https://github.com/IllusionMods/IllusionFixes
+
 # Custom EN Launcher v1.0.0.0
 - Short description: Translated game launcher. Based on the original launcher
 - Author(s):         ManlyMarco
@@ -73,7 +78,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins
 
-# XUnity Auto Translator v5.3.1
+# XUnity Auto Translator v5.4.4
 - Short description: Translation loader
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator

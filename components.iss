@@ -10,7 +10,7 @@ Name: "BepInEx\Dev";                           Description: "Developer mode (Ena
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
 Name: "UNC\SiH_Uncensor";                      Description: "SummerInHeat Uncensor v1.1 (Adds a new 'OFF' option to the 'Mosaic type' dropdown in settings, which fully uncensors the game)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name: "AT";                                    Description: "XUnity Auto Translator v5.3.1 (Translation loader)"                                   ; Types: full_en full extra extra_en custom
+Name: "AT";                                    Description: "XUnity Auto Translator v5.4.4 (Translation loader)"                                   ; Types: full_en full extra extra_en custom
 Name: "AT\TL";                                 Description: "English translation v2025-02-04 (Full English translation of the in-game text)"       ; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full extra
