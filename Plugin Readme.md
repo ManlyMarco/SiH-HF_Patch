@@ -1,4 +1,4 @@
-# BepInEx v5.4.23.1
+# BepInEx v5.4.23.2
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -28,7 +28,7 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility
 
-# English translation v2025-02-04
+# English translation v2025-02-06
 - Short description: Full English translation of the in-game text
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Translation
@@ -68,12 +68,12 @@
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SiH_Tweaks v1.0.0.0
+# SiH_Tweaks v1.1.0.0
 - Short description: Helps fully translate the game and brings some other improvements. You can enable debug mode from Settings > Plugin Settings
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins
 
-# SummerInHeat Uncensor v1.1
+# SummerInHeat Uncensor v1.2
 - Short description: Adds a new 'OFF' option to the 'Mosaic type' dropdown in settings, which fully uncensors the game
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins

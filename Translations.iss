@@ -14,7 +14,8 @@ MsgExtractedZipmod=WARNING - Most likely a sideloader mod was extracted inside t
 MsgEmotionCreatorsDetected=ERROR - EmotionCreators files have been detected! If you installed EmotionCreators to the same folder as Koikatsu, you have broken Koikatsu game files. To fix this you will need to reinstall both games to separate directories!
 
 
-MsgDeepPath=Your game is in a very deeply nested folder, which can cause serious issues or even prevent the game from starting.%n%nPlease move your game folder to a simpler path like for example "C:\Games\SiH" and try to run this patch again.
+MsgDeepPath=Your game is in a very deeply nested folder, which can cause serious issues or even prevent the game from starting.%n%nPlease move your game folder to a simpler path like for example "D:\Games\SiH" and try to run this patch again.
+MsgJpCharsInPath=Non-latin (probably Japanese) characters were detected in the game folder path. The patch cannot be installed until you rename the game folder.%n%nRename the folder(s) to only contain [A-Z] characters and numbers (for example "D:\Games\SiH") and try again.
 
 ;RunGame=&Run VR Kanojo
 ;RunWiki=Open VR Kanojo wiki (FAQ, English manual)
@@ -56,7 +57,8 @@ jp.MsgMissingGameFiles=エラー - 重要なゲームファイルがありませ
 jp.MsgExtractedZipmod=警告 - Sideloader modがゲームディレクトリ内に抽出されたようです。 一部のゲームファイルが破損している可能性があります。%n%n修復を試みますが、それでも問題が解決しない場合は、ゲームを再インストールする必要があります。
 jp.MsgEmotionCreatorsDetected=エラー - 「エモーション・クリエイター」を「コイカツ」と同じフォルダにインストールした場合は、「コイカツ」ゲームファイルが壊れています。修正するには、両方のゲームを別々のディレクトリに再インストールする必要があります。
 
-jp.MsgDeepPath=あなたのゲームは非常に深いディレクトリにあります。これは深刻な問題を引き起こし、ゲームの開始を妨げることさえあります。%n%nゲームフォルダを、たとえば「C:\Games\AGH」のような単純なパスに移動して、このパッチをもう一度実行してみてください。
+jp.MsgDeepPath=あなたのゲームは非常に深いディレクトリにあります。これは深刻な問題を引き起こし、ゲームの開始を妨げることさえあります。%n%nゲームフォルダを、たとえば「D:\Games\SiH」のような単純なパスに移動して、このパッチをもう一度実行してみてください。
+jp.MsgJpCharsInPath=ゲームフォルダのパスに非ラテン文字（おそらく日本語）が検出されました。ゲームフォルダの名前を変更するまで、パッチをインストールできません。%n%nフォルダの名前を[A-Z]文字と数字のみに変更してください（例：「D:\Games\SiH」）。
 
 ;jp.RunGame=ゲームを始める
 ;jp.RunWiki=オープン英語AI-Shoujo/VR Kanojoのwiki（FAQ、マニュアル）

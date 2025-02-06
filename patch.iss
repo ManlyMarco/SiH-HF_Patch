@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.0.1"
+#define VERSION "1.1"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -25,7 +25,7 @@ LZMADictionarySize=262144
 LZMANumFastBytes=273
 LZMANumBlockThreads=5
 DiskSpanning=no
-DefaultDirName=C:\夏のサカり-Ver1.00-DLsite\
+DefaultDirName=C:\SummerInHeat-Ver1.00-DLsite\
 
 WindowResizable=yes
 WizardStyle=modern
@@ -174,6 +174,21 @@ begin
   Result := CheckVersionNumber(ExpandConstant('{app}'));
 end;
 
+function IsCharValid(Value: Char): Boolean;
+begin
+  Result := Ord(Value) <= $007F;
+end;
+
+function IsDirNameValid(const Value: string): Boolean;
+var
+  I: Integer;
+begin
+  Result := False;
+  for I := 1 to Length(Value) do
+    if not IsCharValid(Value[I]) then
+      Exit;
+  Result := True;
+end;
 
 function NextButtonClick(CurPageID: Integer): Boolean;
 var
@@ -217,6 +232,15 @@ begin
       if (Length(ExpandConstant('{app}')) > 100) then
       begin
         MsgBox(ExpandConstant('{cm:MsgDeepPath}'), mbError, MB_OK);
+        Result := False;
+      end
+    end;
+    
+    if Result = True then
+    begin
+      if (not IsDirNameValid(ExpandConstant('{app}'))) then
+      begin
+        MsgBox(ExpandConstant('{cm:MsgJpCharsInPath}'), mbError, MB_OK);
         Result := False;
       end
     end;
