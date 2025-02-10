@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.1"
+#define VERSION "1.2"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -49,13 +49,13 @@ Name: "custom";   Description: "{cm:customInstall}"; Flags: iscustom
 ; bad #define CurrentDate GetDateTimeString('yyyy-mm-dd', '-', ':');
 
 [Components]
-Name: "Patch"; Description: "Clean up and fix common issues (WARNING: If the game is updated in the future this might cause issues - try reinstalling the game and turning this off next time)"; Types: full_en extra_en full extra custom bare none;
+;Name: "Patch"; Description: "Clean up and fix common issues (WARNING: If the game is updated in the future this might cause issues - try reinstalling the game and turning this off next time)"; Types: full_en extra_en full extra custom bare none;
 
 [Files]
 Source: "HelperLib.dll";                  DestDir: "{app}"      ; Flags: dontcopy
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Source: "Input\_Patch\orig\*";            DestDir: "{app}"      ; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
+;Source: "Input\_Patch\orig\*";            DestDir: "{app}"      ; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include "components.iss"
 
@@ -97,15 +97,15 @@ Type: files; Name: "{app}\GameData\winhttp.dll"; Components: BepInEx
 Type: files; Name: "{app}\GameData\doorstop_config.ini"; Components: BepInEx
 
 ; Remove IPA
-Type: filesandordirs; Name: "{app}\GameData\IPA"; Components: Patch
-Type: filesandordirs; Name: "{app}\GameData\Plugins"; Components: Patch
-Type: files; Name: "{app}\GameData\IPA.exe"; Components: Patch
-Type: files; Name: "{app}\GameData\Mono.Cecil.dll"; Components: Patch
+;Type: filesandordirs; Name: "{app}\GameData\IPA"; Components: Patch
+;Type: filesandordirs; Name: "{app}\GameData\Plugins"; Components: Patch
+;Type: files; Name: "{app}\GameData\IPA.exe"; Components: Patch
+;Type: files; Name: "{app}\GameData\Mono.Cecil.dll"; Components: Patch
 
 ; Clean dlls completely to fix problems with copied/unnecessary/old dlls
-Type: filesandordirs; Name: "{app}\GameData\SummerInHeat_Data\Managed"; Components: Patch
-Type: filesandordirs; Name: "{app}\GameData\SummerInHeat_Data\Plugins"; Components: Patch
-Type: filesandordirs; Name: "{app}\GameData\MonoBleedingEdge"; Components: Patch
+;Type: filesandordirs; Name: "{app}\GameData\SummerInHeat_Data\Managed"; Components: Patch
+;Type: filesandordirs; Name: "{app}\GameData\SummerInHeat_Data\Plugins"; Components: Patch
+;Type: filesandordirs; Name: "{app}\GameData\MonoBleedingEdge"; Components: Patch
 
 [Tasks]
 Name: desktopicon; Description: "{cm:TaskIcon}"; Flags: unchecked

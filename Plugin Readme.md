@@ -28,7 +28,7 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility
 
-# English translation v2025-02-06
+# English translation v2025-02-10
 - Short description: Full English translation of the in-game text
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Translation
@@ -68,7 +68,7 @@
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SiH_Tweaks v1.1.0.0
+# SiH_Tweaks v1.2.0.0
 - Short description: Helps fully translate the game and brings some other improvements. You can enable debug mode from Settings > Plugin Settings
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins
