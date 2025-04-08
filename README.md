@@ -4,9 +4,14 @@ An unofficial patch for [Summer in Heat](https://miconisomi.xii.jp/summer/) (夏
 
 Read the [full HF Patch manual](https://gist.github.com/ManlyMarco/31b78470b8e190686c7ed9686c237e3f) to learn more about what it is, what it does, how to use it, and how to solve common issues.
 
-HF Patch does not contain the game, only mods. You have to buy the game separately. You can buy the game [on DLsite](https://www.dlsite.com/maniax/work/=/product_id/RJ365188.html) or [on DMM](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_220306/). Both versions are essentially identical. This patch was tested on the v1.00_DLsite version of the game but should work on future versions as well.
+HF Patch does not contain the game, only mods. You have to buy the game separately. You can buy the game [on DLsite](https://www.dlsite.com/maniax/work/=/product_id/RJ365188.html) or [on DMM](https://www.dmm.co.jp/dc/doujin/-/detail/=/cid=d_220306/). Both versions are essentially identical. The most recent version of this patch was tested on the v1.01_DLsite version of the game, and it should work on future versions as well.
 
 You can support development of HF Patch and many of the included plugins through my Patreon page: https://www.patreon.com/ManlyMarco
+
+### Other patches
+If you like this game, be sure to check out previous games by Miconisomi. I made patches for those games as well and IO even has a full hand-translation - strongly recommended!
+- [Houkago Rinkan Chuudoku](https://github.com/ManlyMarco/AGH-HF_Patch)
+- [INSULT ORDER](https://github.com/ManlyMarco/IO-HF_Patch)
 
 ## Download
 Check the [Releases](https://github.com/ManlyMarco/SiH-HF_Patch/releases) page for download links. The latest release is at the top. To get mail updates for each new release you can watch this repositiory (top right).
@@ -34,22 +39,24 @@ If you need any help, visit the [Koikatsu discord server](https://discord.gg/hev
 ## Important notes, please read
 Here are answers to some of the most commonly asked questions, please check them first before asking for help!
 
+### Specific to the SiH patch
+- You must make sure that there are no Japanese characters in the game's folder name (the whole path) or mods may fail to load.
+- This patch lets you play the game in both English and Japanese. The uncensor works even when playing in Japanese.
+- If you install English translations, you have to start the game through the English launcher. If you use the Japanese launcher then the game will start in Japanese language.
+- If you want to skip straight to a specific story scene you can do it through the debug mode. In title screen go to Settings, open Plugin settings on the right, and set any key for the "Open debug menu" setting. Go back to the title screen, click the configured hotkey and go wild. Warning: Back up your save files if you care about your progress!
+- This patch works with both DMM and DLsite versions of the game (they are basically identical).
+- If you want to make your own mods, check https://docs.bepinex.dev and source code of some existing plugins, for example https://github.com/ManlyMarco/SummerInHeat_Plugins.
+
 ### General HF Patch
 - HF Patch does not contain the full game, paid expansions or any other pirated content. The full game needs to be already installed for the patch to work.
 - If you have installed a previous HF Patch or separate mods it is recommended to remove ALL mods when prompted. This will prevent any potential mod conflicts or outdated mods causing problems.
 - You can run this patch as many times as you want and nothing will break. All mods are optional to install, and most can be removed by running the patch again.
 - You can use this patch to fix many broken game/mod installs.
 - It's recommended to install all content mods if you plan to download character cards - they are required by many cards and scenes.
+- If the patch asks for a disk or shows a verification error after starting the install - Patch file is corrupted, redownload the patch from a different mirror and/or with a different web browser.
 - Older versions of BepInEx will be automatically upgraded, and most botched installations should get fixed by running this patch.
 - Please leave the modders some positive feedback or help them in some other way!
 - There is no warranty on this patch or on any of the included mods. You are installing this patch at your own risk. The base game and by extension this patch are not suitable for minors. If you are under 18 years old you can not use this patch. The base game and this patch contain only characters of age 18 or higher. The creator of this patch is not responsible for creations of its users and prohibits any unlawful use of this software.
-
-### Specific to the SiH patch
-- This patch lets you play the game in both English and Japanese. The uncensor works even when playing in Japanese.
-- If you install English translations, you have to start the game through the English launcher. If you use the Japanese launcher then the game will start in Japanese language.
-- If you want to skip straight to a specific story scene you can do it through the debug mode. In title screen go to Settings, open Plugin settings on the right, and set any key for the "Open debug menu" setting. Go back to the title screen, click the configured hotkey and go wild. Warning: Back up your save files if you care about your progress!
-- This patch works with both DMM and DLsite versions of the game (they are basically identical).
-- If you want to make your own mods, check https://docs.bepinex.dev and source code of some existing plugins, for example https://github.com/ManlyMarco/SummerInHeat_Plugins.
 
 ## How to build
 At least Visual Studio 2017 is needed for the helper library and latest unicode Inno Setup compiler is needed for the patch itself. All necessary mods have to be placed inside correct subfolders of the Input directory to compile. Because of massive size, they are not included here.
