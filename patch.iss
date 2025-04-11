@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.2"
+#define VERSION "1.3"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -87,7 +87,6 @@ Type: files; Name: "{app}\GameData\output_log.txt"
 ; Unity crash reports
 Type: filesandordirs; Name: "{app}\GameData\20??-??-??_??????"
 
-
 ; Will get replaced, makes sure there are no stale files left
 Type: filesandordirs; Name: "{app}\GameData\BepInEx\cache"; Components: BepInEx
 Type: filesandordirs; Name: "{app}\GameData\BepInEx\core"; Components: BepInEx
@@ -95,6 +94,8 @@ Type: files; Name: "{app}\GameData\BepInEx.Patcher.exe"; Components: BepInEx
 Type: files; Name: "{app}\GameData\version.dll"; Components: BepInEx
 Type: files; Name: "{app}\GameData\winhttp.dll"; Components: BepInEx
 Type: files; Name: "{app}\GameData\doorstop_config.ini"; Components: BepInEx
+
+Type: files; Name: "{app}\GameData\BepInEx\plugins\FPSCounter.dll"; Components: MISC\FPS
 
 ; Remove IPA
 ;Type: filesandordirs; Name: "{app}\GameData\IPA"; Components: Patch

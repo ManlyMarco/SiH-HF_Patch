@@ -28,12 +28,12 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility
 
-# English translation v2025-02-10
+# English translation v2025-04-12
 - Short description: Full English translation of the in-game text
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Translation
 
-# FPS Counter v3.1
+# FPS Counter v3.2
 - Short description: Useful for performance testing
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/FPSCounter
@@ -63,22 +63,22 @@
 - Author(s):         BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility
 
-# Runtime Unity Editor v5.5.1
+# Runtime Unity Editor v6.0
 - Short description: Tool for making arbitrary modifications to the game, press [Pause] key to open
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SiH_Tweaks v1.2.0.0
+# SiH_Tweaks v1.3
 - Short description: Helps fully translate the game and brings some other improvements. You can enable debug mode from Settings > Plugin Settings
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins
 
-# SummerInHeat Uncensor v1.2
+# SummerInHeat Uncensor v1.3
 - Short description: Adds a new 'OFF' option to the 'Mosaic type' dropdown in settings, which fully uncensors the game
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/SummerInHeat_Plugins
 
-# XUnity Auto Translator v5.4.4
+# XUnity Auto Translator v5.4.5
 - Short description: Translation loader
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
