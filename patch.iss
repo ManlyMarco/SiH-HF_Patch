@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.3"
+#define VERSION "1.4"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -25,7 +25,7 @@ LZMADictionarySize=262144
 LZMANumFastBytes=273
 LZMANumBlockThreads=5
 DiskSpanning=no
-DefaultDirName=C:\SummerInHeat-Ver1.00-DLsite\
+DefaultDirName=C:\SummerInHeat-Ver1.02-DLsite\
 
 WindowResizable=yes
 WizardStyle=modern

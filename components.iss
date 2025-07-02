@@ -9,14 +9,15 @@ Name: "BepInEx\Dev";                           Description: "Developer mode (Ena
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
 Name: "UNC\SiH_Uncensor";                      Description: "SummerInHeat Uncensor v1.3 (Adds a new 'OFF' option to the 'Mosaic type' dropdown in settings, which fully uncensors the game)"; Types: full_en full extra extra_en
+Name: "UNC\SiH_Uncensor\LightTexture";         Description: "Light Texture v1.3 (Make pussy and dick a bit lighter in color)"                      
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "AT";                                    Description: "XUnity Auto Translator v5.4.5 (Translation loader)"                                   ; Types: full_en full extra extra_en custom
-Name: "AT\TL";                                 Description: "English translation v2025-04-12 (Full English translation of the in-game text)"       ; Types: full_en extra_en
+Name: "AT\TL";                                 Description: "English translation v2025-07-02 (Full English translation of the in-game text)"       ; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full extra
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "Fixes and improvements"                                                               ; Types: extra_en extra
-Name: "FIX\SiH_Tweaks";                        Description: "SiH_Tweaks v1.3 (Helps fully translate the game and brings some other improvements. You can enable debug mode from Settings > Plugin Settings)"; Types: full_en full extra extra_en
+Name: "FIX\SiH_Tweaks";                        Description: "SiH_Tweaks v1.3.0.0 (Helps fully translate the game and brings some other improvements. You can enable debug mode from Settings > Plugin Settings)"; Types: full_en full extra extra_en
 Name: "FIX\GraphicsSettings";                  Description: "Graphics Settings v1.3 (Adds more graphics settings to Plugin settings, improves graphics by default)"; Types: full_en extra_en full extra
 Name: "FIX\CultureFix";                        Description: "CultureFix v22.0.2 (Force the game's process locale to Japanese to avoid potential issues on some systems)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -40,6 +41,7 @@ Source: "Input\_Plugins\_out\BepInEx.ConfigurationManager\*"; DestDir: "{app}\Ga
 Source: "Input\_Plugins\_out\BepInEx.MessageCenter\*";      DestDir: "{app}\GameData"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\MessageCenter; Excludes: "manifest.xml"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Plugins\_out\SiH_Uncensor\*";               DestDir: "{app}\GameData"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\SiH_Uncensor; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SiH_Uncensor_LightTexture\*";  DestDir: "{app}\GameData"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\SiH_Uncensor\LightTexture; Excludes: "manifest.xml"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Plugins\_out\BepInEx.GraphicsSettings\*";   DestDir: "{app}\GameData"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\GraphicsSettings; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SiH_Tweaks\*";                 DestDir: "{app}\GameData"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\SiH_Tweaks; Excludes: "manifest.xml"
