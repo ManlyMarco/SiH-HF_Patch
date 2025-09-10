@@ -6,7 +6,7 @@
 ;--------------------------------------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer in Heat"
 ;----------------------------------------------------------------------------Current HF Patch version
-#define VERSION "1.4"
+#define VERSION "1.4.1"
 ;----------------------------------------------------------------------------------------------------
 #include "Assets\Header.iss"
 
@@ -170,9 +170,12 @@ function CheckVersionNumber(path: String): Boolean;
 external 'CheckVersionNumber@files:HelperLib.dll stdcall';
 
 
-function VersionIs104(): Boolean;
+function VersionIsCompatible(): Boolean;
+var
+  Size: Integer;
 begin
-  Result := CheckVersionNumber(ExpandConstant('{app}'));
+  FileSize(ExpandConstant('{app}\GameData\SummerInHeat_Data\Managed\Assembly-CSharp.dll'), Size);
+  Result := Size = 3546112;
 end;
 
 function IsCharValid(Value: Char): Boolean;
@@ -213,6 +216,9 @@ begin
       or FileExists(ExpandConstant('{app}\KoiKoiMonogatari.exe'))
       or FileExists(ExpandConstant('{app}\KoiKoiMonogatariVR.exe'))
       or FileExists(ExpandConstant('{app}\AGH.exe'))
+      or FileExists(ExpandConstant('{app}\IO.exe'))
+      or FileExists(ExpandConstant('{app}\GameData\AGH.exe'))
+      or FileExists(ExpandConstant('{app}\GameData\IO.exe'))
       or FileExists(ExpandConstant('{app}\HoneyCome.exe'))
       or FileExists(ExpandConstant('{app}\AI-Syoujyo.exe'))
       or FileExists(ExpandConstant('{app}\AI-Shoujo.exe'))) then
@@ -246,14 +252,16 @@ begin
       end
     end;
     
-    //if Result = True then
-    //begin
-    //  if (not VersionIs104()) then
-    //  begin
-    //    MsgBox(ExpandConstant('This patch only works on the v1.04 version of the game, which is currently the latest version available on both DLsite and DMM.' + #13#10 + #13#10 + 'It appears that you have an older version. Redownload the game from the store you got it from and try again.' + #13#10 + #13#10 + 'If your version of the game is newer than v1.04, please contact me through https://github.com/ManlyMarco/SiH-HF_Patch/issues or Discord.'), mbError, MB_OK);
-    //    Result := False;
-    //  end
-    //end;
+    if Result = True then
+    begin
+      if (not VersionIsCompatible()) then
+      begin
+        MsgBox(ExpandConstant('WARNING: Your version of the game could be incompatible with this patch! If you proceed with installation you might break the game or introduce various bugs!' + #13#10 + #13#10 +
+        'Make sure that you are using the latest versions of this patch and the game.' + #13#10 + 
+        '- Redownload the game from the store you got it from to get the latest version.' + #13#10 + 
+        '- You can find the latest patch release on github.com/ManlyMarco/SiH-HF_Patch'), mbError, MB_OK);
+      end
+    end;
 
     if Result = True then
     begin
